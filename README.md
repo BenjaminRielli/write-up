@@ -11,12 +11,11 @@ Este Write-up describe el proceso de configuración de un ambiente de pruebas en
   5. Contenedor de Docker de [OWASP Juice Shop](https://hub.docker.com/r/bkimminich/juice-shop).
 
 >[!NOTE]
-   >
    >Burp Suite viene instalado de forma predeterminada en Kali Linux.
->
-   >Confirmar que el navegador esté configurado para utilizar el proxy de Burp Suite.
 
 ### 2. Proceso de configuración
   1. Iniciar el contenedor de Docker.
-  2. Abrir el navegador previamente configurado para utilizar el proxy de Burp Suite.
+  2. Abrir el navegador[^1].
   3. Navega a la ruta que se especifica -> Ejemplo `http://localhost:3000`.
+
+[^1]: Confirmar que el navegador esté configurado para utilizar el proxy de Burp Suite.
