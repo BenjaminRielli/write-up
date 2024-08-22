@@ -21,8 +21,17 @@ Este Write-up describe el proceso de configuración de un ambiente de pruebas en
   2. Abre Burp Suite.
   3. Navega a la pestaña proxy, presiona abrir el navegador y enciende el intercept.
   4. En el navegador abierto navegue a la ruta que se especifica -> Ejemplo `http://localhost:3000`.
-     
-![Pantalla de inicio](/assets/pantallainicio.png)
 
 
-## DEMO
+## DEMOS
+Se realizaron algunas intercepciones a modo de demostrar algunas vulnerabilidades de la web. A continuación detalladamente se mostraran con imágenes.
+
+### Demo N°1
+Interceptamos el envío de un feedback del cliente, para así modificar el valor del rating que está limitado del 1 al 5. 
+
+![Interceptando petición](/assets/interceptor.png "Petición del envio del formulario")
+
+Al modificar la request, notamos que se logra modificar a gusto el valor del rating.
+
+![Modificando rating](/assets/rating0.png)
+
