@@ -19,7 +19,7 @@ Este Write-up describe el proceso de configuración de un ambiente de pruebas en
   2. Abre Burp Suite.
   3. Navega a la pestaña proxy, presiona abrir el navegador y enciende el intercept.
   4. En el navegador abierto navegue a la ruta que se especifica -> Ejemplo `http://localhost:3000`.
-     ![Pestaña de inicio](/assets/pestallainicio.png)
+     ![Pantalla de inicio](/assets/pantallainicio.png)
 
 
 ## DEMO
