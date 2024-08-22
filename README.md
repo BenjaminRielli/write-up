@@ -15,11 +15,13 @@ Este Write-up describe el proceso de configuración de un ambiente de pruebas en
 
 ### 2. Proceso de configuración  
   1. Iniciar el contenedor de Docker.     
-    ![Iniciando contenedor](/assets/iniciando.png)
-  2. Abre Burp Suite.
-  3. Navega a la pestaña proxy, presiona abrir el navegador y enciende el intercept.
-  4. En el navegador abierto navegue a la ruta que se especifica -> Ejemplo `http://localhost:3000`.
-     ![Pantalla de inicio](/assets/pantallainicio.png)
+
+![Iniciando contenedor](/assets/iniciando.png)
+  3. Abre Burp Suite.
+  4. Navega a la pestaña proxy, presiona abrir el navegador y enciende el intercept.
+  5. En el navegador abierto navegue a la ruta que se especifica -> Ejemplo `http://localhost:3000`.
+     
+![Pantalla de inicio](/assets/pantallainicio.png)
 
 
 ## DEMO
