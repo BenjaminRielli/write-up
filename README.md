@@ -10,7 +10,7 @@ Este Write-up describe el proceso de configuración de un ambiente de pruebas en
   4. [Docker](https://docs.docker.com/desktop/install/linux-install/).
   5. Contenedor de Docker de [OWASP Juice Shop](https://hub.docker.com/r/bkimminich/juice-shop).
 
->[!NOTE]
+>[!IMPORTANT]
    >Burp Suite viene instalado de forma predeterminada en Kali Linux.
 
 ### 2. Proceso de configuración
