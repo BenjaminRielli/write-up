@@ -35,3 +35,8 @@ Al modificar la request, notamos que se logra modificar a gusto el valor del rat
 
 ![Modificando rating](/assets/rating0.png)
 
+### Demo N°2
+También, interceptamos la petición del form del login.
+
+![Envio login](/assets/login.png)
+
