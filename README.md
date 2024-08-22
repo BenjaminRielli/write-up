@@ -1,7 +1,7 @@
 # Write-up del armado de un ambiente de pruebas de aplicaciones. 
 
 ### Introducción
-Este Write-up describe el proceso de configuración de un ambiente de pruebas en una máquina virtual con Kali Linux. Este entorno se utilizará para realizar pruebas de seguridad en aplicaciones web. En particular, configuraremos una máquina virtual en VirtualBox, instalaremos un proxy de interceptación llamado BurpSuite, configuraremos Docker, ejecutaremos OWASP Juice Shop en un contenedor y finalmente, verificaremos el tráfico a través del proxy.
+Este Write-up describe el proceso de configuración de un ambiente de pruebas en una máquina virtual con Kali Linux. En particular, configuraremos una máquina virtual en VirtualBox, instalaremos un proxy de interceptación llamado BurpSuite, configuraremos Docker, ejecutaremos OWASP Juice Shop en un contenedor y finalmente, verificaremos el tráfico a través del proxy.
 
 ### 1. Instalaciones necesarias
   1. Software de virtualización: [VirtualBox](https://www.virtualbox.org/wiki/Downloads).
@@ -24,7 +24,7 @@ Este Write-up describe el proceso de configuración de un ambiente de pruebas en
 
 
 ## DEMOS
-Se realizaron algunas intercepciones a modo de demostrar algunas vulnerabilidades de la web. A continuación detalladamente se mostraran con imágenes.
+Se realizaron algunas intercepciones a modo de demostrar algunas vulnerabilidades de la web. A continuación las demostraremos detalladamente.
 
 ### Demo N°1
 Interceptamos el envío de un feedback del cliente, para así modificar el valor del rating que está limitado del 1 al 5. 
