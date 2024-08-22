@@ -13,13 +13,13 @@ Este Write-up describe el proceso de configuración de un ambiente de pruebas en
 >[!IMPORTANT]
    >Burp Suite viene instalado de forma predeterminada en Kali Linux.
 
-### 2. Proceso de configuración
-  1. Abrir el navegador y confirmar que esté configurado para utilizar el proxy de Burp Suite.
-  2. Iniciar el contenedor de Docker.
-     ![Iniciando contenedor](/assets/images/contenedor.png)
-  4. Navega a la ruta que se especifica -> Ejemplo `http://localhost:3000`.
-  5. Abre Burp Suite.
-  6. Para interceptar cualquier petición, navega a la pestaña proxy y enciende el intercept.
+### 2. Proceso de configuración  
+  1. Iniciar el contenedor de Docker.     
+    ![Iniciando contenedor](/assets/iniciando.png)
+  2. Abre Burp Suite.
+  3. Navega a la pestaña proxy, presiona abrir el navegador y enciende el intercept.
+  4. En el navegador abierto navegue a la ruta que se especifica -> Ejemplo `http://localhost:3000`.
+     ![Pestaña de inicio](/assets/pestallainicio.png)
 
 
-### 3. Ejemplos de intercepciones
+## DEMO
