@@ -6,13 +6,14 @@ Este Write-up describe el proceso de configuración de un ambiente de pruebas en
 ### 1. Instalaciones necesarias
   1. Software de virtualización: [VirtualBox](https://www.virtualbox.org/wiki/Downloads).
   2. [Maquina virtual de Kali Linux](https://www.kali.org/get-kali/#kali-virtual-machines) en VirtualBox.
-*Ya en iniciada la maquina virtual:*
+*Ya iniciada la maquina virtual:*
   4. [Docker](https://docs.docker.com/desktop/install/linux-install/).
   5. Contenedor de Docker de [OWASP Juice Shop](https://hub.docker.com/r/bkimminich/juice-shop).
 
 >[!NOTE]
    >
    >Burp Suite viene instalado de forma predeterminada en Kali Linux.
+>
    >Confirmar que el navegador esté configurado para utilizar el proxy de Burp Suite.
 
 ### 2. Proceso de configuración
