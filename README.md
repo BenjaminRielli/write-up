@@ -8,6 +8,8 @@ Este Write-up describe el proceso de configuración de un ambiente de pruebas en
   2. Maquina virtual de Kali Linux en VirtualBox.
   3. Docker.
   4. Contenedor de Docker de OWASP Juice Shop.
-     
-### 1.1 Instalaciones no necesarias
-  1. Burp Suite viene instalado de forma predeterminada en Kali Linux.
+
+>[!NOTE]
+   >
+   >Burp Suite viene instalado de forma predeterminada en Kali Linux.
+
