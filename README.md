@@ -40,7 +40,7 @@ También, interceptamos la petición del form del login.
 
 ![Envio login](/assets/login.png)
 
-En este caso modificamos el campo email insertando una query sql `' or 1=1; -- `, de modo que se "engaña" al sistema y como la condición ´1=1´ siempre da ´true´, logramos acceder al sistema, en este caso como administrador.
+En este caso modificamos el campo email realizando sql injection. Insertamos una query sql `' or 1=1; -- `, de modo que se "engaña" al sistema y como la condición ´1=1´ siempre da ´true´, logramos acceder al sistema, en este caso como administrador.
 
 ![Modificando request](/assets/injection.png)
 
